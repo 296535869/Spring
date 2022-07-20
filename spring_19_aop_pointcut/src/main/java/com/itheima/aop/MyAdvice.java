@@ -20,7 +20,7 @@ public class MyAdvice {
 //    @Pointcut("execution(void com..*())")
 //    @Pointcut("execution(* com.itheima.*.*Service.find*(..))")
 //    @Pointcut("execution(* com.itheima.*.*Service.save(..))")
-    @Pointcut("execution(void com.itheima.dao.BookDao.update())")
+    @Pointcut("execution(void com.itheima.dao.BookDao.update())")s
     private void pt() {
     }
 
