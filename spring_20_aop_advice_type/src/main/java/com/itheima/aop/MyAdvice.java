@@ -45,7 +45,7 @@ public class MyAdvice {
         System.out.println("afterReturning advice ...");
     }
 
-    @AfterThrowing("pt2()")
+//    @AfterThrowing("pt2()")
     public void afterThrowing() {
         System.out.println("afterThrowing advice ...");
     }
