@@ -9,7 +9,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringConfig.class);
         BookDao bookDao = ctx.getBean(BookDao.class);
-        int num = bookDao.select();
-        System.out.println(num);
+        int select = bookDao.select();
+        System.out.println(select);
     }
 }
