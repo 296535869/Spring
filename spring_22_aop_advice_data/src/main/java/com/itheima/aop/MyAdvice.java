@@ -37,15 +37,15 @@ public class MyAdvice {
         Object ret = null;
         try {
             ret = pjp.proceed(args);
-        } catch (Throwable t) {
-            t.printStackTrace();
+        } catch (Throwable e) {
+            e.printStackTrace();
         }
         return ret;
     }
 
     //设置返回后通知获取原始方法的返回值，要求returning属性值必须与方法形参名相同
     @AfterReturning(value = "pt()",returning = "ret")
-    public void afterReturning(JoinPoint jp,String ret) {
+    public void afterReturning(JoinPoint jp,Object ret) {
         System.out.println("afterReturning advice ..."+ret);
     }
 
