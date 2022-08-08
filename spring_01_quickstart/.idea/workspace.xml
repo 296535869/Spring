@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6636cc00-2dde-4390-b091-40364b0b869a" name="变更" comment="">
+    <list default="true" id="53dc190e-8218-460a-a56f-95151311c384" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/../spring_11_annotation_bean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_11_annotation_bean/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_11_annotation_bean/src/main/java/com/itheima/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_11_annotation_bean/src/main/java/com/itheima/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_11_annotation_bean/src/main/java/com/itheima/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_11_annotation_bean/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
@@ -20,8 +23,7 @@
       <change beforePath="$PROJECT_DIR$/../spring_18_aop_quickstart/src/main/java/com/itheima/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_18_aop_quickstart/src/main/java/com/itheima/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_18_aop_quickstart/src/main/java/com/itheima/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_18_aop_quickstart/src/main/java/com/itheima/dao/impl/BookDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_19_aop_pointcut/src/main/java/com/itheima/aop/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_19_aop_pointcut/src/main/java/com/itheima/aop/MyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_20_aop_advice_type/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_20_aop_advice_type/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2CbvFI5tn1o1zd9dDqzoPxKGy0J" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CbvKLBHpPXlAQmblo395lZ8jhU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,12 +55,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="6636cc00-2dde-4390-b091-40364b0b869a" name="变更" comment="" />
-      <created>1659083993206</created>
+      <changelist id="53dc190e-8218-460a-a56f-95151311c384" name="变更" comment="" />
+      <created>1659084034822</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659083993206</updated>
-      <workItem from="1659083994274" duration="3000" />
+      <updated>1659084034822</updated>
+      <workItem from="1659084035856" duration="2000" />
     </task>
     <servers />
   </component>

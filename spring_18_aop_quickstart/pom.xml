@@ -14,6 +14,10 @@
       <artifactId>spring-context</artifactId>
       <version>5.2.10.RELEASE</version>
     </dependency>
+
+    <!--导入AspectJ的jar包,AspectJ是AOP思想的一个具体实现，
+    Spring有自己的AOP实现，但是相比于AspectJ来说比较麻烦，
+    所以我们直接采用Spring整合ApsectJ的方式进行AOP开发-->
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>

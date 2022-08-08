@@ -2,7 +2,6 @@ package com.itheima;
 
 import com.itheima.config.SpringConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import javax.sql.DataSource;
 
 public class App {

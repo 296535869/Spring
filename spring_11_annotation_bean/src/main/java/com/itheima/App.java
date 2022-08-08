@@ -7,6 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {
     public static void main(String[] args) {
+        //通过配置文件加载Spring配置
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         BookDao bookDao = (BookDao) ctx.getBean("bookDao");
         System.out.println(bookDao);
